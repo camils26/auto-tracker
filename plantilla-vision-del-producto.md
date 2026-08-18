@@ -8,7 +8,7 @@
 
 ---
 
-**Autor:**
+**Autor: Ana Camila Lopez Sanchez**
 **Fecha de la última versión:**
 **Repositorio:**
 
@@ -18,9 +18,11 @@
 
 *Instrucción: nombre del sistema y qué hace, en un párrafo que cualquier persona entienda sin ser del área. Si necesitas usar una palabra técnica para explicarlo, todavía no está listo.*
 
-**Nombre del sistema:**
+**Nombre: AutoTrack** 
 
-**Descripción:**
+**Descripción:** 
+
+AutoTrack es un sistema que ayuda a los vendedores de una agencia de autos a organizar la información de sus clientes y dar seguimiento a cada posible venta. Permite saber qué auto le interesa a cada cliente, en qué etapa de compra está y cuándo volver a contactarlo.
 
 ---
 
@@ -28,17 +30,17 @@
 
 *Instrucción: qué problema resuelve, a quién le sirve y, muy importante, qué hace esa gente hoy para arreglárselas sin el sistema. Esa última parte es la que revela el problema real.*
 
-**El problema:**
+**El problema:** Los vendedores manejan muchos clientes y pueden perder información o olvidar dar seguimiento a una venta.
 
 **Cómo se resuelve hoy sin el sistema:**
 
-**Usuarios del sistema:**
+**Usuarios del sistema:** Usan WhatsApp, llamadas, notas, hojas de cálculo o su memoria para guardar y consultar la información.
 
 | Tipo de usuario | Qué necesita del sistema | Qué le preocupa |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| Cliente | Consultar autos y recibir seguimiento de su compra.  | Recibir información incorrecta o demasiados mensajes.  |
+| Vendedor | Organizar clientes y dar seguimiento a las ventas.  | Perder una venta.  |
+| Gerente | Revisar el avance de las ventas.  | No tener información actualizada.  |
 
 *Instrucción: necesitas al menos dos tipos de usuario con necesidades distintas. Si los dos quieren exactamente lo mismo, probablemente sean el mismo usuario.*
 
