@@ -16,7 +16,6 @@
 
 ## 1. Descripción del sistema
 
-*Instrucción: nombre del sistema y qué hace, en un párrafo que cualquier persona entienda sin ser del área. Si necesitas usar una palabra técnica para explicarlo, todavía no está listo.*
 
 **Nombre: AutoTrack** 
 
@@ -28,13 +27,12 @@ AutoTrack es un sistema que ayuda a los vendedores de una agencia de autos a org
 
 ## 2. Problema y usuarios
 
-*Instrucción: qué problema resuelve, a quién le sirve y, muy importante, qué hace esa gente hoy para arreglárselas sin el sistema. Esa última parte es la que revela el problema real.*
 
 **El problema:** Los vendedores manejan muchos clientes y pueden perder información o olvidar dar seguimiento a una venta.
 
-**Cómo se resuelve hoy sin el sistema:**
+**Cómo se resuelve hoy sin el sistema:** Usan WhatsApp, llamadas, notas, hojas de cálculo o su memoria para guardar y consultar la información.
 
-**Usuarios del sistema:** Usan WhatsApp, llamadas, notas, hojas de cálculo o su memoria para guardar y consultar la información.
+**Usuarios del sistema:** 
 
 | Tipo de usuario | Qué necesita del sistema | Qué le preocupa |
 |---|---|---|
@@ -42,11 +40,11 @@ AutoTrack es un sistema que ayuda a los vendedores de una agencia de autos a org
 | Vendedor | Organizar clientes y dar seguimiento a las ventas.  | Perder una venta.  |
 | Gerente | Revisar el avance de las ventas.  | No tener información actualizada.  |
 
-*Instrucción: necesitas al menos dos tipos de usuario con necesidades distintas. Si los dos quieren exactamente lo mismo, probablemente sean el mismo usuario.*
 
-**Un conflicto entre usuarios:**
 
-*Instrucción: describe algo que un usuario quiera y que a otro le estorbe. Ahí está tu primera decisión de diseño real.*
+**Un conflicto entre usuarios:** El vendedor quiere contactar al cliente para concretar la venta, mientras que el cliente puede no querer recibir mensajes constantemente. El gerente necesita que la información de las ventas se mantenga actualizada. 
+
+
 
 ---
 
