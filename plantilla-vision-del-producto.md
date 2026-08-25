@@ -1,11 +1,5 @@
 # Visión del producto
 
-> **Plantilla del curso · Ingeniería de Software I · SIS3407**
-> Este documento es el primer entregable del semestre y la base de todo lo que viene después.
-> Se entrega completo en la **semana 4** y se presenta ante el grupo.
->
-> **Cómo usarla:** copia este archivo a tu repositorio como `docs/vision-del-producto.md`, borra las instrucciones en gris de cada apartado y escribe tu contenido en su lugar. Conserva los títulos.
-
 ---
 
 **Autor: Ana Camila Lopez Sanchez**
@@ -52,7 +46,10 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 <li>Gerente: Puede consultar todas las ventas y clientes, supervisar a los vendedores y modificar información cuando sea necesario.
 </li>
 
+
 **¿Qué pasa cuando se concreta una venta?**
+
+
 <li>La venta se marca como completada: El cliente pasa de estar en proceso a tener una venta finalizada.</li>
 <li>Deja de aparecer en pendientes: Ya no necesita seguimientos de venta, por lo que sale de la lista de clientes pendientes.</li>
 <li>Se guarda el historial: La información de la venta queda registrada para que el vendedor y el gerente puedan consultarla posteriormente.</li>
