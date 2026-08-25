@@ -59,24 +59,23 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 ## 3. Alcance
 
-*Instrucción: lo que escribes en "fuera del alcance" es lo que después evita que el proyecto crezca sin control. Sé específico: "reportes" no dice nada, "reportes de ventas mensuales exportables a PDF" sí.*
 
 ### Dentro del alcance
 
--
--
--
--
+- Registrar clientes y su información de contacto
+- Registrar los automóviles disponibles en la agencia y el automóvil de interés de cada cliente
+- Actualizar el estado de cada venta (interesado, cotización, apartado, venta, etc.)
+- Registrar el seguimiento de la venta de los clientes
+- Guardar las ventas concretadas para que el asesor de ventas y el gerente puedan tener acceso a ellas
 
 ### Explícitamente fuera del alcance
 
--
--
--
+- Procesar pagos o realizar contratos de venta
+- Mandar mensajes automáticos por WhatsApp o por cualquier otro método de comunicación
+- Realizar compras por linea
 
-**Por qué queda fuera:**
+**Por qué queda fuera:** No envía mensajes automáticamente porque hacerlo va a requerir integrar servicios externos de mensajería y aumentaría la dificultad del proyecto. Solamente se indica al vendedor cuándo debe realizar un seguimiento.
 
-*Instrucción: para al menos una de las exclusiones, explica la razón. Puede ser tiempo, complejidad, o que no aporta al problema central.*
 
 ---
 
