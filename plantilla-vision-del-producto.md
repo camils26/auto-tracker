@@ -21,16 +21,16 @@
 
 **Descripción:** 
 
-AutoTrack es un sistema que ayuda a los vendedores de una agencia de autos a organizar la información de sus clientes y dar seguimiento a cada posible venta. Permite saber qué auto le interesa a cada cliente, en qué etapa de compra está y cuándo volver a contactarlo.
+AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar seguimiento a las oportunidades de venta. Permite a los vendedores registrar la información de sus clientes, identificar qué vehículos les interesan, conocer en qué parte del proceso de compra se encuentran y saber cuándo deben volver a contactarlos. De esta manera, la agencia puede mantener la información organizada y evitar que se pierdan clientes por olvidar datos o seguimientos importantes.
 
 ---
 
 ## 2. Problema y usuarios
 
 
-**El problema:** Los vendedores manejan muchos clientes y pueden perder información o olvidar dar seguimiento a una venta.
+**El problema:** En una agencia de autos, un vendedor puede atender a varios clientes al mismo tiempo y cada uno puede estar interesado en diferentes vehículos y encontrarse en una etapa distinta de compra. Cuando la información no está organizada, es fácil olvidar contactar a un cliente, perder datos sobre sus intereses o no saber qué seguimiento corresponde realizar. Esto puede provocar que se pierdan oportunidades de venta y que los clientes reciban una atención poco organizada.
 
-**Cómo se resuelve hoy sin el sistema:** Usan WhatsApp, llamadas, notas, hojas de cálculo o su memoria para guardar y consultar la información.
+**Cómo se resuelve hoy sin el sistema:** Actualmente, los vendedores suelen guardar la información de sus clientes en conversaciones de WhatsApp, llamadas, notas, hojas de cálculo o incluso confiando en su memoria. El gerente puede solicitar actualizaciones directamente a los vendedores para conocer cómo van las ventas. Esto hace que la información esté distribuida en diferentes lugares y que sea difícil saber rápidamente qué clientes necesitan atención y cuál es el estado de cada posible venta.
 
 **Usuarios del sistema:** 
 
@@ -42,8 +42,20 @@ AutoTrack es un sistema que ayuda a los vendedores de una agencia de autos a org
 
 
 
-**Un conflicto entre usuarios:** El vendedor quiere contactar al cliente para concretar la venta, mientras que el cliente puede no querer recibir mensajes constantemente. El gerente necesita que la información de las ventas se mantenga actualizada. 
+**Un conflicto entre usuarios:** El vendedor puede querer registrar la información de manera rápida y con la libertad de agregar notas según cada cliente, mientras que el gerente necesita que la información esté organizada de una misma forma para poder comparar y revisar las ventas. Por lo tanto, el sistema tendrá que encontrar un equilibrio entre permitir que el vendedor trabaje rápidamente y establecer la información mínima que todos deben registrar.
 
+**Huecos importantes:** 
+
+**¿Quién puede hacer qué?**
+<li>Cliente: Puede entrar al sistema, consultar los autos disponibles, seleccionar los que le interesan y revisar el estado de su proceso de compra.</li>
+<li>Vendedor: Registra clientes, autos de interés, cotizaciones y actualiza el avance de cada venta. Solo puede modificar la información de sus clientes.</li>
+<li>Gerente: Puede consultar todas las ventas y clientes, supervisar a los vendedores y modificar información cuando sea necesario.
+</li>
+
+**¿Qué pasa cuando se concreta una venta?**
+<li>La venta se marca como completada: El cliente pasa de estar en proceso a tener una venta finalizada.</li>
+<li>Deja de aparecer en pendientes: Ya no necesita seguimientos de venta, por lo que sale de la lista de clientes pendientes.</li>
+<li>Se guarda el historial: La información de la venta queda registrada para que el vendedor y el gerente puedan consultarla posteriormente.</li>
 
 
 ---
