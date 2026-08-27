@@ -81,29 +81,26 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 ## 4. Tipo de sistema y restricciones
 
-*Instrucción: identifica de qué tipo es tu sistema y qué te obliga a garantizar ese tipo. Un sistema de información y un sistema crítico no se diseñan igual.*
 
-**Tipo de sistema:**
+**Tipo de sistema:** Sistema de información
 
-*(De información · Embebido · Crítico · Web y SaaS · De datos y análisis)*
 
-**Por qué es de ese tipo:**
+**Por qué es de ese tipo:** AutoTrack almacena y organiza información de clientes, automóviles y ventas para facilitar el seguimiento y la consulta de datos por parte de vendedores y gerentes.
 
 **Atributos de calidad que impone:**
 
 | Atributo | Por qué importa en mi caso | Qué pasa si no se cumple |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| Seguridad | Protege los datos de clientes y ventas | Personas no autorizadas podrían acceder a información |
+| Disponibilidad | Vendedores y gerentes necesitan consultar el sistema cuando trabajan | Se podrían perder seguimientos u oportunidades de venta |
+| Usabilidad | Los vendedores deben poder registrar información fácilmente | Podrían cometer errores o dejar de registrar datos |
 
 **Reglas de negocio que ya identifiqué:**
 
-*Instrucción: reglas que no son obvias desde fuera y que alguien que conoce el dominio tendría que explicarte. Si no encuentras ninguna, tu caso puede ser demasiado simple.*
 
-1.
-2.
-3.
+1. Cada cliente debe tener un vendedor responsable de su seguimiento
+2. Una venta debe avanzar por las etapas establecidas: interesado → cotización → prueba de manejo → negociación → venta
+3. Cuando una venta se concreta, se marca como completada y se conserva su historial
 
 ---
 
