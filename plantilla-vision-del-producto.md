@@ -3,7 +3,9 @@
 ---
 
 **Autor: Ana Camila Lopez Sanchez**
+
 **Fecha de la última versión: 1 de septiembre de 2026**
+
 **Repositorio: AutoTrack**
 
 ---
@@ -31,8 +33,8 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 | Tipo de usuario | Qué necesita del sistema | Qué le preocupa |
 |---|---|---|
 | Cliente | Consultar autos y recibir seguimiento de su compra.  | Recibir información incorrecta o demasiados mensajes.  |
-| Vendedor | Organizar clientes y dar seguimiento a las ventas.  | Perder una venta.  |
-| Gerente | Revisar el avance de las ventas.  | No tener información actualizada.  |
+| Vendedor | Cumplir con su cuota de ventas, organizar clientes y dar seguimiento a las ventas.  | Perder una venta.  |
+| Gerente | Cumplir con la meta de ventas de la agencia y dar seguimiento de los procesos de cada vendedor.  | No tener información actualizada que le permita tomar decisiones y acciones para cumplir sus objetivos.  |
 
 
 
@@ -41,15 +43,16 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 **Huecos importantes:** 
 
 ¿Quién puede hacer qué?
-<li>Cliente: Puede entrar al sistema, consultar los autos disponibles, seleccionar los que le interesan y revisar el estado de su proceso de compra.</li>
+<li>Cliente: Puede entrar al sistema, consultar los autos disponibles y el catálogo de la marca, seleccionar los que le interesan y revisar el estado de su proceso de compra.</li>
 <li>Vendedor: Registra clientes, autos de interés, cotizaciones y actualiza el avance de cada venta. Solo puede modificar la información de sus clientes.</li>
-<li>Gerente: Puede consultar todas las ventas y clientes, supervisar a los vendedores y modificar información cuando sea necesario.</li>
+<li>Gerente: Puede consultar todas las ventas, la etapa del proceso de venta de cada cliente, supervisar a los vendedores y modificar información cuando sea necesario.</li>
 
 
 ¿Qué pasa cuando se concreta una venta?
-<li>La venta se marca como completada: El cliente pasa de estar en proceso a tener una venta finalizada.</li>
-<li>Deja de aparecer en pendientes: Ya no necesita seguimientos de venta y deja de aparecer entre los clientes pendientes.</li>
+<li>La venta se marca como completada: El prospecto calificado pasa a ser un cliente que inicia otro proceso enfocado a varias etapas administrativas que finalizan hasta la entrega del vehículo.</li>
+<li>Una vez entregado el vehículo, deja de aparecer en pendientes.</li>
 <li>Se guarda el historial: La información de la venta queda registrada para que el vendedor y el gerente puedan consultarla posteriormente.</li>
+<li>Después entrega del vehículo, inicia un proceso de relación con el cliente para temas de servicio, mantenimiento, seguimiento general y posibles compras futuras.</li>
 
 
 ---
@@ -59,17 +62,17 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 ### Dentro del alcance
 
-- Registrar clientes y su información de contacto
-- Registrar los automóviles disponibles en la agencia y el automóvil de interés de cada cliente
-- Actualizar el estado de cada venta (interesado, cotización, apartado, venta, etc.)
-- Registrar el seguimiento de la venta de los clientes
+- Registrar clientes y su información de contacto, necesidades respecto a los vehículos, hobbies y aficiones
+- Registrar los automóviles disponibles en la agencia y en la planta o centro de distribución y el automóvil de interés de cada cliente
+- Actualizar el estado de cada venta (interesado, cotización, prueba de manejo, apartado, canal de venta (financiamiento o de contado), cierre de la venta, entrega del vehículo, etc.)
+- Generar reportes de venta y seguimiento
 - Guardar las ventas concretadas para que el asesor de ventas y el gerente puedan tener acceso a ellas
 
 ### Explícitamente fuera del alcance
 
-- No procesará pagos ni generará contratos de compra.
-- No enviará mensajes automáticos por WhatsApp, SMS o correo electrónico.
-- No permitirá realizar la compra del automóvil directamente desde el sistema.
+- No procesará pagos ni generará contratos de compra, ni contratos de financiamiento
+- No enviará mensajes automáticos por WhatsApp, SMS o correo electrónico
+- No permitirá realizar la compra del automóvil directamente desde el sistema
 
 **Por qué queda fuera:** El envío automático de mensajes queda fuera porque requeriría integrar servicios externos de mensajería y aumentaría la complejidad del proyecto. AutoTrack solamente indicará al vendedor cuándo debe realizar un seguimiento.
 
@@ -90,20 +93,19 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 |---|---|---|
 | Seguridad | Protege los datos de clientes y ventas | Personas no autorizadas podrían acceder a información |
 | Disponibilidad | Vendedores y gerentes necesitan consultar el sistema cuando trabajan | Se podrían perder seguimientos u oportunidades de venta |
-| Usabilidad | Los vendedores deben poder registrar información fácilmente | Podrían cometer errores o dejar de registrar datos |
+| Usabilidad | Los usuarios deben poder registrar y consultar información fácilmente | Podrían cometer errores o dejar de registrar datos |
 
 **Reglas de negocio que ya identifiqué:**
 
 
 1. Cada cliente debe tener un vendedor responsable de su seguimiento.
 2. Una venta debe avanzar por las etapas establecidas en orden: interesado → cotización → prueba de manejo → negociación → apartado → venta.
-3. Cuando una venta se concreta, debe marcarse como completada y conservar su historial.
+3. Cuando una venta se concreta y el vehículo es entregado, debe marcarse como completada y conservar su historial.
 
 ---
 
 ## 5. Ciclo de vida elegido
 
-*Instrucción: este apartado se trabaja en la semana 3, después de ver los modelos de desarrollo. La justificación pesa más que la elección: no hay un modelo correcto, hay uno defendible para tu caso.*
 
 **Modelo elegido:** Prototipado rápido
 
@@ -126,12 +128,21 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 Reviso que el documento cumpla lo siguiente:
 
 [ ] La descripción del apartado 1 se entiende sin ser del área
+
 [ ] Hay al menos dos tipos de usuario con necesidades distintas
+
 [ ] Identifiqué un conflicto real entre usuarios
+
 [ ] El alcance dice qué queda fuera, no solo qué queda dentro
+
 [ ] Las exclusiones son específicas, no genéricas
+
 [ ] Identifiqué el tipo de sistema y al menos dos atributos de calidad
+
 [ ] Anoté al menos tres reglas de negocio no obvias
+
 [ ✓ ] Justifiqué el ciclo de vida contra dos alternativas descartadas
+
 [ ✓ ] El documento está en mi repositorio y se puede leer desde el navegador
+
 [ ✓ ] Borré todas las instrucciones en cursiva de la plantilla
