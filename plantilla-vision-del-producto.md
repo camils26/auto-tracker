@@ -3,7 +3,7 @@
 ---
 
 **Autor: Ana Camila Lopez Sanchez**
-**Fecha de la última versión:**
+**Fecha de la última versión: **
 **Repositorio:**
 
 ---
@@ -36,22 +36,19 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 
 
-**Un conflicto entre usuarios:** El vendedor puede querer registrar la información de manera rápida y con la libertad de agregar notas según cada cliente, mientras que el gerente necesita que la información esté organizada de una misma forma para poder comparar y revisar las ventas. Por lo tanto, el sistema tendrá que encontrar un equilibrio entre permitir que el vendedor trabaje rápidamente y establecer la información mínima que todos deben registrar.
+**Un conflicto entre usuarios:** El vendedor quiere contactar al cliente para aumentar las posibilidades de concretar una venta, mientras que el cliente puede preferir recibir únicamente información importante y no ser contactado constantemente. Por lo tanto, el sistema tendrá que encontrar un equilibrio entre permitir que el vendedor trabaje rápidamente y establecer la información mínima que todos deben registrar.
 
 **Huecos importantes:** 
 
-**¿Quién puede hacer qué?**
+¿Quién puede hacer qué?
 <li>Cliente: Puede entrar al sistema, consultar los autos disponibles, seleccionar los que le interesan y revisar el estado de su proceso de compra.</li>
 <li>Vendedor: Registra clientes, autos de interés, cotizaciones y actualiza el avance de cada venta. Solo puede modificar la información de sus clientes.</li>
-<li>Gerente: Puede consultar todas las ventas y clientes, supervisar a los vendedores y modificar información cuando sea necesario.
-</li>
+<li>Gerente: Puede consultar todas las ventas y clientes, supervisar a los vendedores y modificar información cuando sea necesario.</li>
 
 
-**¿Qué pasa cuando se concreta una venta?**
-
-
+¿Qué pasa cuando se concreta una venta?
 <li>La venta se marca como completada: El cliente pasa de estar en proceso a tener una venta finalizada.</li>
-<li>Deja de aparecer en pendientes: Ya no necesita seguimientos de venta, por lo que sale de la lista de clientes pendientes.</li>
+<li>Deja de aparecer en pendientes: Ya no necesita seguimientos de venta y deja de aparecer entre los clientes pendientes.</li>
 <li>Se guarda el historial: La información de la venta queda registrada para que el vendedor y el gerente puedan consultarla posteriormente.</li>
 
 
@@ -70,11 +67,11 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 ### Explícitamente fuera del alcance
 
-- Procesar pagos o realizar contratos de venta
-- Mandar mensajes automáticos por WhatsApp o por cualquier otro método de comunicación
-- Realizar compras por linea
+- No procesará pagos ni generará contratos de compra.
+- No enviará mensajes automáticos por WhatsApp, SMS o correo electrónico.
+- No permitirá realizar la compra del automóvil directamente desde el sistema.
 
-**Por qué queda fuera:** No envía mensajes automáticamente porque hacerlo va a requerir integrar servicios externos de mensajería y aumentaría la dificultad del proyecto. Solamente se indica al vendedor cuándo debe realizar un seguimiento.
+**Por qué queda fuera:** El envío automático de mensajes queda fuera porque requeriría integrar servicios externos de mensajería y aumentaría la complejidad del proyecto. AutoTrack solamente indicará al vendedor cuándo debe realizar un seguimiento.
 
 
 ---
@@ -99,7 +96,7 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 
 1. Cada cliente debe tener un vendedor responsable de su seguimiento
-2. Una venta debe avanzar por las etapas establecidas: interesado → cotización → prueba de manejo → negociación → venta
+2. Una venta debe avanzar por las etapas establecidas: Interesado → Cotización → Prueba de manejo → Negociación → Apartado → Venta
 3. Cuando una venta se concreta, se marca como completada y se conserva su historial
 
 ---
@@ -108,21 +105,19 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 *Instrucción: este apartado se trabaja en la semana 3, después de ver los modelos de desarrollo. La justificación pesa más que la elección: no hay un modelo correcto, hay uno defendible para tu caso.*
 
-**Modelo elegido:**
+**Modelo elegido:** Prototipado rápido
 
-**Por qué le conviene a este proyecto:**
-
-*Instrucción: argumenta con las características reales de tu caso. Estabilidad de los requisitos, disponibilidad del cliente, nivel de riesgo, tamaño del equipo, frecuencia de entregas esperada.*
+**Por qué le conviene a este proyecto:** AutoTrack tiene tres tipos de usuarios con necesidades diferentes: cliente, vendedor y gerente. Algunas de estas necesidades pueden ser difíciles de definir únicamente con explicaciones, por lo que crear un prototipo nos permitirá mostrar cómo funcionaría el sistema, recibir comentarios de los usuarios y realizar cambios antes de desarrollar el sistema completo.
 
 ### Alternativas descartadas
 
-**Alternativa 1:**
+**Alternativa 1:** Cascada
 
-*Por qué la descarté:*
+*Por qué la descarté:* Requiere que los requisitos estén definidos y sean estables desde el inicio. En AutoTrack pueden surgir cambios al mostrar el sistema a los usuarios y conocer mejor sus necesidades.
 
-**Alternativa 2:**
+**Alternativa 2:** Espiral
 
-*Por qué la descarté:*
+*Por qué la descarté:* Está pensado para proyectos grandes y con un nivel alto de riesgo técnico. AutoTrack es un proyecto de menor tamaño y no necesita realizar un análisis de riesgos en cada ciclo.
 
 ---
 
@@ -130,13 +125,13 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 Reviso que el documento cumpla lo siguiente:
 
-- [ ] La descripción del apartado 1 se entiende sin ser del área
-- [ ] Hay al menos dos tipos de usuario con necesidades distintas
-- [ ] Identifiqué un conflicto real entre usuarios
-- [ ] El alcance dice qué queda fuera, no solo qué queda dentro
-- [ ] Las exclusiones son específicas, no genéricas
-- [ ] Identifiqué el tipo de sistema y al menos dos atributos de calidad
-- [ ] Anoté al menos tres reglas de negocio no obvias
-- [ ] Justifiqué el ciclo de vida contra dos alternativas descartadas
-- [ ] El documento está en mi repositorio y se puede leer desde el navegador
-- [ ] Borré todas las instrucciones en cursiva de la plantilla
+[ ] La descripción del apartado 1 se entiende sin ser del área
+[ ] Hay al menos dos tipos de usuario con necesidades distintas
+[ ] Identifiqué un conflicto real entre usuarios
+[ ] El alcance dice qué queda fuera, no solo qué queda dentro
+[ ] Las exclusiones son específicas, no genéricas
+[ ] Identifiqué el tipo de sistema y al menos dos atributos de calidad
+[ ] Anoté al menos tres reglas de negocio no obvias
+[ ✓ ] Justifiqué el ciclo de vida contra dos alternativas descartadas
+[ ✓ ] El documento está en mi repositorio y se puede leer desde el navegador
+[ ✓ ] Borré todas las instrucciones en cursiva de la plantilla
