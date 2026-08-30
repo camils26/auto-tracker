@@ -3,8 +3,8 @@
 ---
 
 **Autor: Ana Camila Lopez Sanchez**
-**Fecha de la última versión: **
-**Repositorio:**
+**Fecha de la última versión: 1 de septiembre de 2026**
+**Repositorio: AutoTrack**
 
 ---
 
@@ -95,9 +95,9 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 **Reglas de negocio que ya identifiqué:**
 
 
-1. Cada cliente debe tener un vendedor responsable de su seguimiento
-2. Una venta debe avanzar por las etapas establecidas: Interesado → Cotización → Prueba de manejo → Negociación → Apartado → Venta
-3. Cuando una venta se concreta, se marca como completada y se conserva su historial
+1. Cada cliente debe tener un vendedor responsable de su seguimiento.
+2. Una venta debe avanzar por las etapas establecidas en orden: interesado → cotización → prueba de manejo → negociación → apartado → venta.
+3. Cuando una venta se concreta, debe marcarse como completada y conservar su historial.
 
 ---
 
