@@ -6,7 +6,7 @@
 
 **Fecha de la última versión: 1 de septiembre de 2026**
 
-**Repositorio: AutoTrack**
+**Repositorio: [AutoTrack](https://github.com/camils26/auto-tracker/blob/main/plantilla-vision-del-producto.md)**
 
 ---
 
