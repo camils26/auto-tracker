@@ -82,7 +82,7 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 ## 4. Tipo de sistema y restricciones
 
 
-**Tipo de sistema:** Sistema de información
+**Tipo de sistema:** Sistema de información y software a la medida
 
 
 **Por qué es de ese tipo:** AutoTrack almacena y organiza información de clientes, automóviles y ventas para facilitar el seguimiento y la consulta de datos por parte de vendedores y gerentes.
@@ -127,22 +127,22 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 Reviso que el documento cumpla lo siguiente:
 
-[ x ] La descripción del apartado 1 se entiende sin ser del área
+- [x] La descripción del apartado 1 se entiende sin ser del área
 
-[ x ] Hay al menos dos tipos de usuario con necesidades distintas
+- [x] Hay al menos dos tipos de usuario con necesidades distintas
 
-[ x ] Identifiqué un conflicto real entre usuarios
+- [x] Identifiqué un conflicto real entre usuarios
 
-[ x ] El alcance dice qué queda fuera, no solo qué queda dentro
+- [x] El alcance dice qué queda fuera, no solo qué queda dentro
 
-[ x ] Las exclusiones son específicas, no genéricas
+- [x] Las exclusiones son específicas, no genéricas
 
-[ x ] Identifiqué el tipo de sistema y al menos dos atributos de calidad
+- [x] Identifiqué el tipo de sistema y al menos dos atributos de calidad
 
-[ x ] Anoté al menos tres reglas de negocio no obvias
+- [x] Anoté al menos tres reglas de negocio no obvias
 
-[ x ] Justifiqué el ciclo de vida contra dos alternativas descartadas
+- [x] Justifiqué el ciclo de vida contra dos alternativas descartadas
 
-[ x ] El documento está en mi repositorio y se puede leer desde el navegador
+- [x] El documento está en mi repositorio y se puede leer desde el navegador
 
-[ x ] Borré todas las instrucciones en cursiva de la plantilla
+- [x] Borré todas las instrucciones en cursiva de la plantilla
