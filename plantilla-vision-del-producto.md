@@ -127,22 +127,22 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 Reviso que el documento cumpla lo siguiente:
 
-[ ] La descripción del apartado 1 se entiende sin ser del área
+[ x ] La descripción del apartado 1 se entiende sin ser del área
 
-[ ] Hay al menos dos tipos de usuario con necesidades distintas
+[ x ] Hay al menos dos tipos de usuario con necesidades distintas
 
-[ ] Identifiqué un conflicto real entre usuarios
+[ x ] Identifiqué un conflicto real entre usuarios
 
-[ ] El alcance dice qué queda fuera, no solo qué queda dentro
+[ x ] El alcance dice qué queda fuera, no solo qué queda dentro
 
-[ ] Las exclusiones son específicas, no genéricas
+[ x ] Las exclusiones son específicas, no genéricas
 
-[ ] Identifiqué el tipo de sistema y al menos dos atributos de calidad
+[ x ] Identifiqué el tipo de sistema y al menos dos atributos de calidad
 
-[ ] Anoté al menos tres reglas de negocio no obvias
+[ x ] Anoté al menos tres reglas de negocio no obvias
 
-[ ✓ ] Justifiqué el ciclo de vida contra dos alternativas descartadas
+[ x ] Justifiqué el ciclo de vida contra dos alternativas descartadas
 
-[ ✓ ] El documento está en mi repositorio y se puede leer desde el navegador
+[ x ] El documento está en mi repositorio y se puede leer desde el navegador
 
-[ ✓ ] Borré todas las instrucciones en cursiva de la plantilla
+[ x ] Borré todas las instrucciones en cursiva de la plantilla
