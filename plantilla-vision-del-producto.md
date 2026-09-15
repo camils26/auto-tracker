@@ -63,6 +63,7 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 ### Dentro del alcance
 
 - Registrar clientes y su información de contacto, necesidades respecto a los vehículos, hobbies y aficiones
+- Registrar la información tanto de los vendedores como del gerente
 - Registrar los automóviles disponibles en la agencia y en la planta o centro de distribución y el automóvil de interés de cada cliente
 - Actualizar el estado de cada venta (interesado, cotización, prueba de manejo, apartado, canal de venta (financiamiento o de contado), cierre de la venta, entrega del vehículo, etc.)
 - Generar reportes de venta y seguimiento
