@@ -32,7 +32,9 @@
 | **Gerente** | Pide actualizaciones directamente a cada vendedor para saber cómo van las ventas. | Consultar el estado de todas las ventas y el avance de cada vendedor sin depender de que se lo reporten manualmente, para tomar decisiones con información actualizada. |
 | **Cliente** | Se comunica con el vendedor por WhatsApp o llamadas para preguntar por autos, recibir información y dar seguimiento a su proceso de compra. | Consultar el catálogo de autos disponibles, seleccionar los que le interesan y revisar en qué parte de su proceso de compra se encuentra, sin recibir mensajes innecesarios. |
 
-**Conflictos identificados entre usuarios:** El principal conflicto puede surgir entre vendedores y gerentes, ya que el vendedor necesita actualizar y gestionar la información de sus clientes de manera rápida, mientras que el gerente necesita tener acceso a información suficiente para supervisar el avance de las ventas. El sistema debe permitir ambas necesidades sin hacer que el registro de información sea complicado para el vendedor.
+**Conflictos identificados entre usuarios:** 
+1. Vendedor vs. Cliente: el vendedor quiere contactar al cliente con frecuencia para aumentar las probabilidades de concretar la venta, mientras que el cliente prefiere recibir solo información relevante y no ser contactado constantemente. El sistema debe apoyar el seguimiento del vendedor sin forzar un contacto excesivo hacia el cliente.
+2. Vendedor vs. Gerente: el vendedor necesita rapidez para registrar y avanzar a sus clientes sin que capturar datos le quite tiempo de venta, mientras que el gerente necesita que la información esté completa y actualizada para poder supervisar el proceso. El sistema debe definir un mínimo de información obligatoria que no vuelva pesado el registro para el vendedor pero sí sea suficiente para el gerente.
 
 ## 3. Requisitos funcionales
 
