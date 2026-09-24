@@ -7,19 +7,30 @@
 
 ## 1. Propósito y alcance
 
-**Propósito del documento:** El propósito de este documento es definir las características, usuarios, necesidades y límites del sistema AutoTrack, así como establecer los requisitos que deberá cumplir para apoyar el seguimiento del proceso de venta de automóviles.
+**Propósito del documento:** Este documento describe con detalle los requisitos funcionales y no funcionales del sistema AutoTrack, a partir de lo definido en la Visión del producto y de la información recabada en la entrevista con el vendedor. Va dirigido al equipo de desarrollo, al gerente de la agencia y a los vendedores que participarán como usuarios del sistema, para que todos compartan un mismo entendimiento de qué construirá el sistema y qué queda fuera de él.
 
-**Alcance del sistema:** AutoTrack será un sistema para gestionar y dar seguimiento al proceso de venta de automóviles. Permitirá registrar clientes, vendedores y gerentes, así como consultar y actualizar el avance de cada cliente en las diferentes etapas del proceso: interesado, cotización, prueba de manejo, negociación y venta.
+**Alcance del sistema:** 
+<li>Registrar clientes y su información de contacto, necesidades respecto a los vehículos, hobbies y aficiones.</li>
+<li>Registrar la información tanto de los vendedores como del gerente.</li>
+<li>Registrar los automóviles disponibles en la agencia y en la planta o centro de distribución, así como el automóvil de interés de cada cliente.</li>
+<li>Actualizar el estado de cada venta (interesado, cotización, prueba de manejo, apartado, canal de venta —financiamiento o de contado—, cierre de la venta, entrega del vehículo, etc.).</li>
+<li>Generar reportes de venta y seguimiento.</li>
+<li>Guardar las ventas concretadas para que el vendedor y el gerente puedan consultarlas posteriormente.</li>
 
-**Fuera del alcance:** El sistema no realizará pagos, facturación, contabilidad, inventario de vehículos ni procesos administrativos externos a la gestión y seguimiento de las ventas.
+
+**Fuera del alcance:** 
+
+<li>No procesará pagos ni generará contratos de compra ni contratos de financiamiento.</li>
+<li>No enviará mensajes automáticos por WhatsApp, SMS o correo electrónico.</li>
+<li>No permitirá realizar la compra del automóvil directamente desde el sistema.</li>
 
 ## 2. Usuarios y su contexto
 
 | Usuario | Qué hace hoy sin el sistema | Qué espera del sistema |
 |---|---|---|
-| **Vendedor** | Da seguimiento a los clientes mediante mensajes, llamadas, notas o registros separados. Puede perder información sobre el avance de una venta. | Registrar clientes, consultar su información y actualizar fácilmente la etapa en la que se encuentra cada venta. |
-| **Gerente** | Supervisa las ventas y consulta el avance de los vendedores mediante información que puede estar dispersa. | Consultar el progreso de las ventas y tener una visión general de los clientes y operaciones en curso. |
-| **Cliente** | Se comunica con el vendedor para recibir información, cotizaciones y dar seguimiento a su proceso de compra. | Recibir un seguimiento organizado y que su información y avance en el proceso de compra estén correctamente registrados. |
+| **Vendedor** | Atiende a varios clientes a la vez (según la temporada), y guarda la información de cada uno en conversaciones de WhatsApp, llamadas, notas sueltas o una hoja de Excel medianamente organizada. Depende de su memoria para recordar en qué etapa va cada cliente. | Tener en un solo lugar los datos de contacto, el auto de interés y el avance de cada cliente, para no perder el hilo del proceso ni dejar de dar seguimiento en el momento correcto. |
+| **Gerente** | Pide actualizaciones directamente a cada vendedor para saber cómo van las ventas. | Consultar el estado de todas las ventas y el avance de cada vendedor sin depender de que se lo reporten manualmente, para tomar decisiones con información actualizada. |
+| **Cliente** | Se comunica con el vendedor por WhatsApp o llamadas para preguntar por autos, recibir información y dar seguimiento a su proceso de compra. | Consultar el catálogo de autos disponibles, seleccionar los que le interesan y revisar en qué parte de su proceso de compra se encuentra, sin recibir mensajes innecesarios. |
 
 **Conflictos identificados entre usuarios:** El principal conflicto puede surgir entre vendedores y gerentes, ya que el vendedor necesita actualizar y gestionar la información de sus clientes de manera rápida, mientras que el gerente necesita tener acceso a información suficiente para supervisar el avance de las ventas. El sistema debe permitir ambas necesidades sin hacer que el registro de información sea complicado para el vendedor.
 
