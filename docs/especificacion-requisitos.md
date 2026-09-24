@@ -7,7 +7,7 @@
 
 ## 1. Propósito y alcance
 
-**Propósito del documento:** Definir las características, usuarios, necesidades y límites del sistema AutoTrack, para establecer claramente qué debe hacer el sistema y qué problemas busca resolver.
+**Propósito del documento:** El propósito de este documento es definir las características, usuarios, necesidades y límites del sistema AutoTrack, así como establecer los requisitos que deberá cumplir para apoyar el seguimiento del proceso de venta de automóviles.
 
 **Alcance del sistema:** AutoTrack será un sistema para gestionar y dar seguimiento al proceso de venta de automóviles. Permitirá registrar clientes, vendedores y gerentes, así como consultar y actualizar el avance de cada cliente en las diferentes etapas del proceso: interesado, cotización, prueba de manejo, negociación y venta.
 
@@ -32,7 +32,7 @@
 | RF-002 | Registrar seguimiento de venta | Imprescindible | Entrevista con el vendedor |
 | RF-003 | Actualizar etapa de venta | Imprescindible | Entrevista con el vendedor |
 | RF-004 | Consultar información del cliente | Importante | Entrevista con el vendedor |
-| RF-005 | Consultar avance de ventas | Importante | Entrevista con el gerente |
+| RF-005 | Consultar avance de ventas | Importante | Entrevista con el vendedor |
 
 RF-001 · Registrar cliente
 | Campo | Contenido |
