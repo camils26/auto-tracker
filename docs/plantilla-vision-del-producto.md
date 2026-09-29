@@ -38,7 +38,9 @@ AutoTrack es un sistema que ayuda a una agencia de autos a organizar y dar segui
 
 
 
-**Un conflicto entre usuarios:** El vendedor quiere contactar al cliente para aumentar las posibilidades de concretar una venta, mientras que el cliente puede preferir recibir únicamente información importante y no ser contactado constantemente. Por lo tanto, el sistema tendrá que encontrar un equilibrio entre permitir que el vendedor trabaje rápidamente y establecer la información mínima que todos deben registrar.
+**Un conflicto entre usuarios:** 
+1. Vendedor vs. Cliente: el vendedor quiere contactar al cliente con frecuencia para aumentar las probabilidades de concretar la venta, mientras que el cliente prefiere recibir solo información relevante y no ser contactado constantemente. El sistema debe apoyar el seguimiento del vendedor sin forzar un contacto excesivo hacia el cliente.
+2. Vendedor vs. Gerente: el vendedor necesita rapidez para registrar y avanzar a sus clientes sin que capturar datos le quite tiempo de venta, mientras que el gerente necesita que la información esté completa y actualizada para poder supervisar el proceso. El sistema debe definir un mínimo de información obligatoria que no vuelva pesado el registro para el vendedor pero sí sea suficiente para el gerente.
 
 **Huecos importantes:** 
 
