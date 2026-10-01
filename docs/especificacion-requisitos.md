@@ -45,7 +45,7 @@
 | RF-002 | Registro del automóvil de interés                | Imprescindible | Entrevista con el vendedor, pregunta 3                                          |
 | RF-003 | Generación de cotización                         | Imprescindible | Entrevista con el vendedor, pregunta 4                                          |
 | RF-004 | Programación de prueba de manejo                 | Imprescindible | Entrevista con el vendedor, pregunta 5                                          |
-| RF-005 | Registro de seguimiento tras la prueba de manejo | Importante     | Entrevista con el vendedor, pregunta 6                                          |
+| RF-005 | Registro de seguimiento tras la prueba de manejo | Imprescindible     | Entrevista con el vendedor, pregunta 6                                          |
 | RF-006 | Actualización de la etapa de venta               | Imprescindible | Entrevista con el vendedor, pregunta 7; Visión del producto, regla de negocio 2 |
 | RF-007 | Cambio de automóvil de interés                   | Importante     | Entrevista con el vendedor, pregunta 12                                         |
 | RF-008 | Reactivación de cliente inactivo                 | Importante     | Entrevista con el vendedor, pregunta 11                                         |
@@ -103,7 +103,7 @@
 **RF-006 · Actualización de la etapa de venta**
 | Campo                  | Contenido                                                                                                                                                                                          |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descripción            | El sistema permite actualizar la etapa en la que se encuentra la venta de un cliente, siguiendo el orden establecido: interesado → cotización → prueba de manejo → negociación → apartado → venta. |
+| Descripción            | El sistema permite actualizar la etapa en la que se encuentra la venta de un cliente, siguiendo el orden establecido: interesado, cotización, prueba de manejo, apartado, canal de venta —financiamiento o de contado—, cierre de la venta, entrega del vehículo. |
 | Origen                 | Entrevista con el vendedor, pregunta 7, 15 de septiembre; Visión del producto, regla de negocio 2.                                                                                                 |
 | Prioridad              | Imprescindible                                                                                                                                                                                     |
 | Criterio de aceptación | Al cambiar la etapa de un cliente, el sistema no permite saltar etapas fuera de orden ni retroceder sin justificación, y el cambio queda reflejado con fecha en el historial del cliente.          |
@@ -370,4 +370,13 @@
 | 20 sep 2026 | RF-005             | Prioridad cambió de "Importante" a "Imprescindible"           | El gerente indicó que el seguimiento post-prueba de manejo es indispensable para no perder ventas, no solo deseable. |
 | 22 sep 2026 | RF-013 (eliminado) | Se eliminó el requisito de envío de recordatorios automáticos | Estaba fuera del alcance definido en la Visión del producto; se agregó por error en una revisión anterior.           |
 
+## 8. Revisión de la dupla
+<li>Las etapas de venta no coinciden entre secciones. El alcance menciona interesado, cotización, prueba de manejo, apartado, canal de venta, cierre y entrega. RF-006 define interesado → cotización → prueba de manejo → negociación → apartado → venta. "Negociación" no aparece en el alcance, y "entrega/completada", "inactivo" y "perdida" no forman parte del flujo formal. Conviene definir una sola lista de estados y usarla en todo el documento.</li>
+<li>Gestión de catálogo e inventario. El alcance habla de autos en agencia y en planta, y CU-02 y CU-08 dependen de precios, condiciones y fechas de disponibilidad cargadas. Ningún RF define quién da de alta los autos ni cómo se mantienen esos datos.</li>
+<li>Registro de vendedores y gerente. Está en el alcance, pero no tiene RF.</li>
+<li>Paso a inactivo. RF-008 cubre la reactivación, pero no cómo un cliente se vuelve inactivo: ¿es manual o automático después de X días sin actividad?</li>
+<li>RNF-DIS-001: el "horario laboral" no está definido, y "fines de semana si la agencia opera" es ambiguo. Para medir el 99% hace falta fijar las horas.</li>
+<li>Faltan respaldo e integridad del historial. Varios RF dependen de que el historial no se pierda, pero no hay RNF de respaldos ni de bitácora de cambios (quién modificó qué).</li>
+<li>RF-001: dice "el dato de contacto". ¿Cuáles son obligatorios: teléfono, correo, ambos? La validación de duplicados está en CU-01, pero no en el criterio del RF.</li>
 
+* Pendientes que en la próxima entrega estarán modificados
