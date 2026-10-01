@@ -369,5 +369,5 @@
 | ----------- | ------------------ | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | 20 sep 2026 | RF-005             | Prioridad cambió de "Importante" a "Imprescindible"           | El gerente indicó que el seguimiento post-prueba de manejo es indispensable para no perder ventas, no solo deseable. |
 | 22 sep 2026 | RF-013 (eliminado) | Se eliminó el requisito de envío de recordatorios automáticos | Estaba fuera del alcance definido en la Visión del producto; se agregó por error en una revisión anterior.           |
-| 25 sep 2026 | RF-014             | Nuevo requisito: exportar la ficha de un cliente a PDF        | Solicitado por el gerente durante la revisión del prototipo.                                                         |
+
 
