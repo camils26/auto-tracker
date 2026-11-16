@@ -17,7 +17,7 @@ flowchart LR
 ```
 
 ```mermaid
-flowchart TB
+flowchart TD
     Cliente(["Cliente"])
     Vendedor(["Vendedor"])
     Gerente(["Gerente"])
@@ -39,7 +39,7 @@ flowchart TB
 ```
 
 ```mermaid
-flowchart TB
+flowchart TD
     Web["Aplicación web<br/>[React]"]
     BD[("Base de datos<br/>[PostgreSQL]")]
 
