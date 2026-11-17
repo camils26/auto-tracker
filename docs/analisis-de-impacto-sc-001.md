@@ -47,9 +47,6 @@ La lista se arma pidiendo la información a clientes y ventas por su interfaz, n
 | Pruebas de los cuatro criterios de aceptación | 3 |
 | **Total** | **23 (unos 3 días de trabajo)** |
 
-**Cómo se calculó:** suma de las horas de cada pieza que se toca.
-
-**Base de la estimación:** [COMPLETAR: qué piezas ya hechas del prototipo se usaron como referencia, cuánto tardaron y cuántas horas al día se dedican al proyecto.]
 
 ## Riesgos y decisiones abiertas
 - **¿La lista marca al cliente como inactivo?** SC-001 solo pide mostrarlo. Si el sistema lo marcara solo, cambiaría `Cliente.activo` y habría que revisar RF-008.
