@@ -1,69 +1,42 @@
 <mxfile host="app.diagrams.net" agent="AutoTrack">
   <diagram name="Casos de uso - AutoTrack" id="casos-de-uso-autotrack">
-    <mxGraphModel dx="1203" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="700" math="0" shadow="0">
+    <mxGraphModel dx="1203" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="actorVendedor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Vendedor" vertex="1">
-          <mxGeometry height="60" width="30" x="50" y="220" as="geometry" />
-        </mxCell>
-        <mxCell id="actorGerente" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerente" vertex="1">
-          <mxGeometry height="60" width="30" x="50" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="actorCliente" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cliente" vertex="1">
-          <mxGeometry height="60" width="30" x="50" y="540" as="geometry" />
-        </mxCell>
-        <mxCell id="cu01" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Registrar un cliente nuevo" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="cu02" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Generar una cotización" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="cu03" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Programar una prueba de manejo" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="200" as="geometry" />
-        </mxCell>
-        <mxCell id="cu04" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Actualizar la etapa de venta de un cliente" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="270" as="geometry" />
-        </mxCell>
-        <mxCell id="cu05" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Reactivar el seguimiento de un cliente inactivo" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="340" as="geometry" />
-        </mxCell>
-        <mxCell id="cu08" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cerrar y entregar una venta" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="410" as="geometry" />
-        </mxCell>
-        <mxCell id="cu06" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Consultar el avance de ventas de la agencia" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="480" as="geometry" />
-        </mxCell>
-        <mxCell id="cu07" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Consultar el catálogo y el proceso de compra" vertex="1">
-          <mxGeometry height="60" width="220" x="280" y="550" as="geometry" />
-        </mxCell>
-        <mxCell id="e1" edge="1" parent="1" source="actorVendedor" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;" target="cu01">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e2" edge="1" parent="1" source="actorVendedor" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;" target="cu02">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e3" edge="1" parent="1" source="actorVendedor" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;" target="cu03">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e4" edge="1" parent="1" source="actorVendedor" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;" target="cu04">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e5" edge="1" parent="1" source="actorVendedor" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;" target="cu05">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e6" edge="1" parent="1" source="actorVendedor" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;" target="cu08">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e7" edge="1" parent="1" source="actorGerente" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;" target="cu06">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e8" edge="1" parent="1" source="actorCliente" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;" target="cu07">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Cfa2WCXQlHU5ti7jesSh-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="Auto-Track&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="610" width="340" x="230" y="20" as="geometry" />
-        </mxCell>
+        <mxCell id="frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=none;width=90;height=30;" value="AutoTrack" vertex="1"><mxGeometry height="1030" width="340" x="230" y="20" as="geometry" /></mxCell>
+        <mxCell id="actorVendedor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Vendedor" vertex="1"><mxGeometry height="60" width="30" x="50" y="320" as="geometry" /></mxCell>
+        <mxCell id="actorGerente" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerente" vertex="1"><mxGeometry height="60" width="30" x="50" y="770" as="geometry" /></mxCell>
+        <mxCell id="actorCliente" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Cliente" vertex="1"><mxGeometry height="60" width="30" x="50" y="935" as="geometry" /></mxCell>
+        <mxCell id="cu01" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Registrar un cliente nuevo" vertex="1"><mxGeometry height="60" width="220" x="280" y="60" as="geometry" /></mxCell>
+        <mxCell id="cu02" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Generar una cotización" vertex="1"><mxGeometry height="60" width="220" x="280" y="130" as="geometry" /></mxCell>
+        <mxCell id="cu03" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Programar una prueba de manejo" vertex="1"><mxGeometry height="60" width="220" x="280" y="200" as="geometry" /></mxCell>
+        <mxCell id="cu04" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Avanzar la etapa de venta de un cliente" vertex="1"><mxGeometry height="60" width="220" x="280" y="270" as="geometry" /></mxCell>
+        <mxCell id="cu10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Retroceder la etapa de venta de un cliente" vertex="1"><mxGeometry height="60" width="220" x="280" y="340" as="geometry" /></mxCell>
+        <mxCell id="cu05" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Reactivar el seguimiento de un cliente inactivo" vertex="1"><mxGeometry height="60" width="220" x="280" y="410" as="geometry" /></mxCell>
+        <mxCell id="cu11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Marcar una venta como perdida" vertex="1"><mxGeometry height="60" width="220" x="280" y="480" as="geometry" /></mxCell>
+        <mxCell id="cu08" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cerrar una venta" vertex="1"><mxGeometry height="60" width="220" x="280" y="550" as="geometry" /></mxCell>
+        <mxCell id="cu09" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Entregar el vehículo" vertex="1"><mxGeometry height="60" width="220" x="280" y="620" as="geometry" /></mxCell>
+        <mxCell id="cu14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Consultar las ventas concretadas" vertex="1"><mxGeometry height="60" width="220" x="280" y="690" as="geometry" /></mxCell>
+        <mxCell id="cu06" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Consultar el avance de ventas de la agencia" vertex="1"><mxGeometry height="60" width="220" x="280" y="760" as="geometry" /></mxCell>
+        <mxCell id="cu13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Generar un reporte de ventas o de seguimiento" vertex="1"><mxGeometry height="60" width="220" x="280" y="830" as="geometry" /></mxCell>
+        <mxCell id="cu07" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Consultar el catálogo y elegir autos de interés" vertex="1"><mxGeometry height="60" width="220" x="280" y="900" as="geometry" /></mxCell>
+        <mxCell id="cu12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Consultar el estado de mi proceso de compra" vertex="1"><mxGeometry height="60" width="220" x="280" y="970" as="geometry" /></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="actorVendedor" target="cu01" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="90" /></Array></mxGeometry></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="actorVendedor" target="cu02" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="160" /></Array></mxGeometry></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="actorVendedor" target="cu03" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="230" /></Array></mxGeometry></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="actorVendedor" target="cu04" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="300" /></Array></mxGeometry></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="actorVendedor" target="cu10" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="370" /></Array></mxGeometry></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="actorVendedor" target="cu05" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="440" /></Array></mxGeometry></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="actorVendedor" target="cu11" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="510" /></Array></mxGeometry></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="actorVendedor" target="cu08" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="580" /></Array></mxGeometry></mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="actorVendedor" target="cu09" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="650" /></Array></mxGeometry></mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="actorVendedor" target="cu14" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="720" /></Array></mxGeometry></mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="actorGerente" target="cu14" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="720" /></Array></mxGeometry></mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="actorGerente" target="cu06" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="790" /></Array></mxGeometry></mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="actorGerente" target="cu13" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="860" /></Array></mxGeometry></mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="actorCliente" target="cu07" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="930" /></Array></mxGeometry></mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="actorCliente" target="cu12" style="edgeStyle=none;html=1;endArrow=none;strokeColor=#666666;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="250" y="1000" /></Array></mxGeometry></mxCell>
       </root>
     </mxGraphModel>
   </diagram>
